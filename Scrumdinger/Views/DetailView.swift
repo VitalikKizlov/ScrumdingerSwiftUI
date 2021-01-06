@@ -11,6 +11,8 @@ struct DetailView: View {
     
     let scrum: DailyScrum
     
+    @State private var isPresented = false
+    
     var body: some View {
         List {
             Section(header: Text("Meeting Info")) {
@@ -44,7 +46,21 @@ struct DetailView: View {
             }
         }
         .listStyle(InsetGroupedListStyle())
+        .navigationBarItems(trailing: Button("Edit", action: {
+            isPresented = true
+        }))
         .navigationTitle(scrum.title)
+        .fullScreenCover(isPresented: $isPresented, content: {
+            NavigationView {
+                EditView()
+                    .navigationTitle(scrum.title)
+                    .navigationBarItems(leading: Button("Cancel", action: {
+                        isPresented = false
+                    }), trailing: Button("Done", action: {
+                        isPresented = false
+                    }))
+            }
+        })
     }
 }
 

@@ -16,6 +16,7 @@
 		FBDD650725A476A60006F4E9 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD650625A476A60006F4E9 /* Color+Codable.swift */; };
 		FBDD650B25A47B100006F4E9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD650A25A47B100006F4E9 /* ScrumsView.swift */; };
 		FBDD651B25A5C60E0006F4E9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD651A25A5C60E0006F4E9 /* DetailView.swift */; };
+		FBDD651E25A5CC610006F4E9 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD651D25A5CC610006F4E9 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FBDD650625A476A60006F4E9 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		FBDD650A25A47B100006F4E9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		FBDD651A25A5C60E0006F4E9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FBDD651D25A5CC610006F4E9 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				FBDD650125A474450006F4E9 /* CardView.swift */,
 				FBDD650A25A47B100006F4E9 /* ScrumsView.swift */,
 				FBDD651A25A5C60E0006F4E9 /* DetailView.swift */,
+				FBDD651D25A5CC610006F4E9 /* EditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				FBAE9BA025A46D1F00D9F4FF /* MeetingView.swift in Sources */,
 				FBDD650B25A47B100006F4E9 /* ScrumsView.swift in Sources */,
+				FBDD651E25A5CC610006F4E9 /* EditView.swift in Sources */,
 				FBDD64FD25A473AE0006F4E9 /* DailyScrum.swift in Sources */,
 				FBDD651B25A5C60E0006F4E9 /* DetailView.swift in Sources */,
 				FBDD650225A474450006F4E9 /* CardView.swift in Sources */,
