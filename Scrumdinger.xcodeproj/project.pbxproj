@@ -17,6 +17,9 @@
 		FBDD650B25A47B100006F4E9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD650A25A47B100006F4E9 /* ScrumsView.swift */; };
 		FBDD651B25A5C60E0006F4E9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD651A25A5C60E0006F4E9 /* DetailView.swift */; };
 		FBDD651E25A5CC610006F4E9 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD651D25A5CC610006F4E9 /* EditView.swift */; };
+		FBDD652825AC75050006F4E9 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD652725AC75050006F4E9 /* MeetingHeaderView.swift */; };
+		FBDD652E25AC7BE80006F4E9 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD652D25AC7BE80006F4E9 /* ScrumProgressViewStyle.swift */; };
+		FBDD653225AC86BD0006F4E9 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD653125AC86BD0006F4E9 /* ScrumTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		FBDD650A25A47B100006F4E9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		FBDD651A25A5C60E0006F4E9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		FBDD651D25A5CC610006F4E9 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		FBDD652725AC75050006F4E9 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		FBDD652D25AC7BE80006F4E9 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		FBDD653125AC86BD0006F4E9 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 				FBAE9B9D25A46D1F00D9F4FF /* ScrumdingerApp.swift */,
 				FBDD64FB25A4739D0006F4E9 /* Models */,
 				FBDD650025A474280006F4E9 /* Views */,
+				FBDD652C25AC7BC90006F4E9 /* Styles */,
 				FBDD650525A4769C0006F4E9 /* Extensions */,
 				FBAE9BA125A46D2100D9F4FF /* Assets.xcassets */,
 				FBAE9BA625A46D2100D9F4FF /* Info.plist */,
@@ -87,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				FBDD64FC25A473AE0006F4E9 /* DailyScrum.swift */,
+				FBDD653125AC86BD0006F4E9 /* ScrumTimer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -95,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				FBAE9B9F25A46D1F00D9F4FF /* MeetingView.swift */,
+				FBDD652725AC75050006F4E9 /* MeetingHeaderView.swift */,
 				FBDD650125A474450006F4E9 /* CardView.swift */,
 				FBDD650A25A47B100006F4E9 /* ScrumsView.swift */,
 				FBDD651A25A5C60E0006F4E9 /* DetailView.swift */,
@@ -109,6 +118,14 @@
 				FBDD650625A476A60006F4E9 /* Color+Codable.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBDD652C25AC7BC90006F4E9 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				FBDD652D25AC7BE80006F4E9 /* ScrumProgressViewStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +200,13 @@
 				FBAE9BA025A46D1F00D9F4FF /* MeetingView.swift in Sources */,
 				FBDD650B25A47B100006F4E9 /* ScrumsView.swift in Sources */,
 				FBDD651E25A5CC610006F4E9 /* EditView.swift in Sources */,
+				FBDD652825AC75050006F4E9 /* MeetingHeaderView.swift in Sources */,
 				FBDD64FD25A473AE0006F4E9 /* DailyScrum.swift in Sources */,
 				FBDD651B25A5C60E0006F4E9 /* DetailView.swift in Sources */,
+				FBDD653225AC86BD0006F4E9 /* ScrumTimer.swift in Sources */,
 				FBDD650225A474450006F4E9 /* CardView.swift in Sources */,
 				FBDD650725A476A60006F4E9 /* Color+Codable.swift in Sources */,
+				FBDD652E25AC7BE80006F4E9 /* ScrumProgressViewStyle.swift in Sources */,
 				FBAE9B9E25A46D1F00D9F4FF /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
