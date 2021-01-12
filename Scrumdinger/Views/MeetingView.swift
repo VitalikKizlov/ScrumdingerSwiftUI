@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct MeetingView: View {
     
@@ -23,14 +24,7 @@ struct MeetingView: View {
                 Circle()
                     .strokeBorder(lineWidth: 24, antialiased: true)
                 
-                HStack {
-                    Text("Speaker 1 of 3")
-                    Spacer()
-                    Button(action: {}, label: {
-                        Image(systemName: "forward.fill")
-                    })
-                    .accessibilityLabel(Text("Next speaker"))
-                }
+                MeetingFooterView(speakers: $scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
         .padding()
@@ -41,6 +35,8 @@ struct MeetingView: View {
         })
         .onDisappear(perform: {
             scrumTimer.stopScrum()
+            let newHistory = History(attendees: scrum.attendees, lengthInMinutes: scrumTimer.secondsElapsed / 60)
+            scrum.history.insert(newHistory, at: 0)
         })
     }
 }
