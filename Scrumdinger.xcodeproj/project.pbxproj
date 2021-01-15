@@ -24,6 +24,8 @@
 		FBDD653A25ADA6E70006F4E9 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD653925ADA6E70006F4E9 /* History.swift */; };
 		FBDD653F25ADBB390006F4E9 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD653E25ADBB390006F4E9 /* ScrumData.swift */; };
 		FBDD65C825B199DD0006F4E9 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD65C725B199DD0006F4E9 /* MeetingTimerView.swift */; };
+		FBDD65CB25B1A95F0006F4E9 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD65CA25B1A95F0006F4E9 /* SpeechRecognizer.swift */; };
+		FBDD65CF25B1AD4C0006F4E9 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD65CE25B1AD4C0006F4E9 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		FBDD653925ADA6E70006F4E9 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		FBDD653E25ADBB390006F4E9 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		FBDD65C725B199DD0006F4E9 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		FBDD65CA25B1A95F0006F4E9 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		FBDD65CE25B1AD4C0006F4E9 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				FBDD653125AC86BD0006F4E9 /* ScrumTimer.swift */,
 				FBDD653925ADA6E70006F4E9 /* History.swift */,
 				FBDD653E25ADBB390006F4E9 /* ScrumData.swift */,
+				FBDD65CA25B1A95F0006F4E9 /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -115,11 +120,12 @@
 				FBAE9B9F25A46D1F00D9F4FF /* MeetingView.swift */,
 				FBDD652725AC75050006F4E9 /* MeetingHeaderView.swift */,
 				FBDD653425AD980E0006F4E9 /* MeetingFooterView.swift */,
+				FBDD65C725B199DD0006F4E9 /* MeetingTimerView.swift */,
 				FBDD650125A474450006F4E9 /* CardView.swift */,
 				FBDD650A25A47B100006F4E9 /* ScrumsView.swift */,
 				FBDD651A25A5C60E0006F4E9 /* DetailView.swift */,
 				FBDD651D25A5CC610006F4E9 /* EditView.swift */,
-				FBDD65C725B199DD0006F4E9 /* MeetingTimerView.swift */,
+				FBDD65CE25B1AD4C0006F4E9 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAE9BA025A46D1F00D9F4FF /* MeetingView.swift in Sources */,
+				FBDD65CB25B1A95F0006F4E9 /* SpeechRecognizer.swift in Sources */,
 				FBDD650B25A47B100006F4E9 /* ScrumsView.swift in Sources */,
 				FBDD653F25ADBB390006F4E9 /* ScrumData.swift in Sources */,
 				FBDD651E25A5CC610006F4E9 /* EditView.swift in Sources */,
@@ -223,6 +230,7 @@
 				FBDD653A25ADA6E70006F4E9 /* History.swift in Sources */,
 				FBDD65C825B199DD0006F4E9 /* MeetingTimerView.swift in Sources */,
 				FBDD652E25AC7BE80006F4E9 /* ScrumProgressViewStyle.swift in Sources */,
+				FBDD65CF25B1AD4C0006F4E9 /* HistoryView.swift in Sources */,
 				FBAE9B9E25A46D1F00D9F4FF /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
